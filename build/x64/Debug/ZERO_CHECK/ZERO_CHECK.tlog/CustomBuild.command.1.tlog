@@ -1,0 +1,10 @@
+^C:\USERS\MAKSN\SOURCE\REPOS\TODO\BUILD\CMAKEFILES\57DF102A79146B87D345905CD30D5FD9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/maksn/source/repos/TODO -BC:/Users/maksn/source/repos/TODO/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/maksn/source/repos/TODO/build/TODO.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

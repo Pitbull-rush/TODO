@@ -1,0 +1,3 @@
+C:/Users/maksn/source/repos/TODO/build/CMakeFiles/TODO.dir
+C:/Users/maksn/source/repos/TODO/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/maksn/source/repos/TODO/build/CMakeFiles/ZERO_CHECK.dir
